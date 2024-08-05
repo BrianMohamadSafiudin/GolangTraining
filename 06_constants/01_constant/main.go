@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-const p = "death & taxes"
+var p = "death & taxes"
 
 func main() {
 
@@ -10,6 +10,7 @@ func main() {
 
 	fmt.Println("p - ", p)
 	fmt.Println("q - ", q)
+	fmt.Println(q)
 }
 
 // a CONSTANT is a simple unchanging value
